@@ -1,0 +1,103 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding:0; margin:0;
+  height:100vh;
+  width:100vw;
+  background: #1B1919;
+}
+
+.wrapper{
+  height: 100%;
+  color:#aaa;
+  max-width:1200px;
+  margin:0 auto;
+
+}
+
+/* Navigation */
+header{
+  border-bottom:solid 1px #333;
+  height:70px;
+  line-height: 70px;
+  vertical-align: middle;
+  position: fixed;
+  width:100%;
+  max-width:1200px;
+  background:rgba(27,25,25,1);
+  z-index:10000;
+  margin:0 auto;
+}
+
+.content-wrap{
+  padding-top:50px;
+  width:1200px;
+}
+
+.nav-wrap{
+  width:30%;
+  text-align: left;
+  display: inline-block;
+}
+
+.logo-wrap{
+  color:#F8DC93;
+  text-transform: uppercase;
+  width:40%;
+  margin: 0 auto;
+  text-align: center;
+  display:inline-block;
+}
+
+.logo-wrap a{
+  color:#F8DC93;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+a {
+  color:#ccc;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin: 0 1em;
+}
+
+a:hover{
+  color:#F8DC93;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+a.active {
+  color:#F8DC93;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+/* Global styles */
+div.heading{
+  text-align: center;
+  padding:100px 0;
+  margin-top:50px;
+}
+
+h1.title{
+  color:#F8DC93;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 20px !important;
+  opacity:1 !important;
+  padding:0; margin:0.2em 0;
+  text-align: center;
+  padding-left: 20px;
+}
+
+p.sub-title{
+  font-weight: 300;
+  width:450px;
+  line-height: 30px;
+  margin:auto;
+}
